@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Najlepsza aplikacja finansowa - logowanie</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="signin">
+        <h1>Witaj w najlepszej aplikacji finansowej!</h1>
+        <form action="loggedin.html" class="log">
+            <p>
+                <label for="login">Login</label>
+                <input type="text" placeholder="Login" id="login" name="user_" minlength="3" maxlength="13" required>
+            </p>
+            <p>
+                <label for="password">Has&lstrok;o</label>
+                <input type="password" placeholder="Has&lstrok;o" id="password" minlength="3" maxlength="13" required>
+            </p>
+            <button type="login">Zaloguj</button>
+            <p>
+                <a href="register.html">Nie masz konta? Za&lstrok;&oacute;&zdot; nowe.</a>
+            </p>
+        </form>
+
+    </div>
 </body>
+
 </html>
