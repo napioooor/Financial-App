@@ -142,6 +142,7 @@ nav p:hover {
     background-color: #caf0f8;
     border: none;
     box-shadow: 0 0 3px 1px #0096c7;
+    color: #03045e;
 }
 
 .add_value textarea {
@@ -149,8 +150,24 @@ nav p:hover {
     background-color: #caf0f8;
     border: none;
     box-shadow: 0 0 3px 1px #0096c7;
+    color: #03045e;
 }
 
 .add_value a {
     margin-left: 1rem;
+}
+
+.date_select {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-end;
+    padding: 1rem;
+}
+
+.date_select select {
+    background-color: #caf0f8;
+    border: none;
+    box-shadow: 0 0 3px 1px #0096c7;
+    color: #03045e;
 }
